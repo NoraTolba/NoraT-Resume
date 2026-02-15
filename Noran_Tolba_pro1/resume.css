@@ -1,0 +1,62 @@
+
+body {
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgb(239, 203, 210);
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%; 
+}
+.portfolio-image {
+    display: block;
+    width: 90%;          
+    max-width: 300px;    
+    height: auto;        
+}
+
+@media screen and (min-width: 1024px) {
+    .portfolio-image {
+        width: 80%;      
+        max-width: 1200px; 
+    }
+}
+
+p,ul {
+    background-color: white;    
+    padding: 20px;             
+    margin-bottom: 20px;       
+    border: 1px solid #ccc;    
+    border-radius: 8px;        
+    
+    width: 90%;                
+    max-width: 100%;           
+    margin-left: fixed;           
+    margin-right: auto;
+}
+
+
+@media screen and (min-width: 1024px) {
+    p,ul {
+        width: 70%;            
+        max-width: 1000px;     
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+}
+
+a {
+    color: rgb(13, 13, 13);
+    
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
